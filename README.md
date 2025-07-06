@@ -87,3 +87,5 @@ Use your Blynk AUTH TOKEN.
 Plug NodeMCU into USB or 5V adapter.
 
 Power pump circuit from separate supply if needed.
+
+![Screenshot (233)](https://github.com/user-attachments/assets/3a8b1652-76a3-423c-ae18-a699b546832a)
