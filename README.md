@@ -89,3 +89,12 @@ Plug NodeMCU into USB or 5V adapter.
 Power pump circuit from separate supply if needed.
 
 ![Screenshot (233)](https://github.com/user-attachments/assets/3a8b1652-76a3-423c-ae18-a699b546832a)
+
+when soil moisture sensor is not in soil
+
+![Screenshot (235)](https://github.com/user-attachments/assets/a601016a-ff07-4fe0-9051-f79d4173986e)
+
+When soil moisture sensor is in moist soil
+
+![Screenshot (234)](https://github.com/user-attachments/assets/8c89a864-9473-4083-8c33-aa4acdbe1e0a)
+
