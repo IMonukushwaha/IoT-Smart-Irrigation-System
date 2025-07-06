@@ -41,3 +41,49 @@ MOSFET drives Relay IN, which switches the pump’s power supply.
 Relay module is powered by external 5V/12V, depending on pump voltage.
 
 This ensures NodeMCU only controls low current via MOSFET, and actual pump load is handled by Relay.
+
+Built-in LED-: LED_BUILTIN (GPIO2) on NodeMCU turns ON when pump is running.
+
+# Blynk Setup
+
+Template ID: TMPL5A4YPYiWc
+
+Template Name: IOTPROJECT
+
+Auth Token: (Use your -RCSqnRfLcstkPP9-S6-Aw1mZ46yjjiG)
+
+Virtual Pins used -> Virtual Pin	Function
+
+V0->	Soil Moisture (%)
+
+V1->	Temperature (°C)
+
+V2->	Humidity (%)
+
+V3->	Pump Status (0 = OFF, 1 = ON)
+
+# How to Run
+
+1️⃣ Install libraries in Arduino IDE
+
+ESP8266WiFi
+
+BlynkSimpleEsp8266
+
+DHT
+
+2️⃣ Upload code
+
+Update your WiFi SSID & password:
+
+char ssid[] = "node";
+
+char pass[] = "12345678";
+
+Use your Blynk AUTH TOKEN.
+
+3️⃣ Power it up
+
+Plug NodeMCU into USB or 5V adapter.
+
+Power pump circuit from separate supply if needed.
